@@ -71,3 +71,7 @@
     color: rgb(135, 135, 135);
 
 }
+
+.dots .active {
+    color: black;
+}
