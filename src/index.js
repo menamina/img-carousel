@@ -18,19 +18,19 @@ images.forEach(src => {
 
 const dots = document.querySelector(".dots");
 dots.addEventListener('click', (e) => {
-    const selectedDot = e.target.dataset.index;
-    dotClick(selectedDot);
-
-})
-
-
-const rightArrow = document.querySelector(".right");
-const leftArrow = document.querySelector(".left");
-
-rightArrow.addEventListener('click', () => {
+    const selectedDot = Number(e.target.dataset.index);
+    dotClick(selectedDot, images);
 
 });
 
-leftArrow.addEventListener('click', () => {
 
-});
+// const rightArrow = document.querySelector(".right");
+// const leftArrow = document.querySelector(".left");
+
+// rightArrow.addEventListener('click', () => {
+
+// });
+
+// leftArrow.addEventListener('click', () => {
+
+// });
